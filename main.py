@@ -17,7 +17,7 @@ class Solution:
         not_able_to_attend = (2 ** n) // 2 - \
             (invalid_ways[n] - invalid_ways[n-1])
 
-        # The probability that you will miss your graduation ceremony.
+        # The probability that I'll miss graduation ceremony.
         result = f"{not_able_to_attend}/{no_of_valid_ways_to_attend}"
         return result
 
